@@ -79,15 +79,15 @@
                     </div>
                     
                     <div class="row text-white-50 small">
-                        <div class="col-12 col-sm-6 d-flex gap-2 mb-3">
-                            <span class="text-success"><i class="fas fa-check-circle"></i></span>
+                        <div class="col-12 col-sm-6 d-flex mb-3">
+                            <span class="text-success mr-2"><i class="fas fa-check-circle"></i></span>
                             <div>
                                 <div class="font-weight-bold text-white">{{ __('Ready-to-use auth views') }}</div>
                                 <div>{{ __('Login, register, reset password, and profile screens styled with Bootstrap.') }}</div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 d-flex gap-2 mb-3">
-                            <span class="text-success"><i class="fas fa-check-circle"></i></span>
+                        <div class="col-12 col-sm-6 d-flex mb-3">
+                            <span class="text-success mr-2"><i class="fas fa-check-circle"></i></span>
                             <div>
                                 <div class="font-weight-bold text-white">{{ __('Built on Laravel') }}</div>
                                 <div>{{ __('Leverage the full Laravel ecosystem, from routing to queues and more.') }}</div>
@@ -122,7 +122,7 @@
                                     </a>
                                 </li>
                             </ul>
-                            <div class="border-top pt-3 mt-3 small text-gray-600">
+                            <div class="border-top pt-3 mt-3 small text-secondary">
                                 {{ __('You can freely customize this landing page inside') }}
                                 <code class="text-primary">resources/views/welcome.blade.php</code>.
                             </div>

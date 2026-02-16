@@ -41,8 +41,8 @@
             @endif
         </div>
 
-        <div class="d-flex align-items-center gap-3">
-            <button type="submit" class="btn btn-primary btn-user px-4" style="min-width: 140px;">
+        <div class="d-flex align-items-center">
+            <button type="submit" class="btn btn-primary btn-user px-4 mr-3" style="min-width: 140px;">
                 {{ __('Save') }}
             </button>
             @if (session('status') === 'profile-updated')

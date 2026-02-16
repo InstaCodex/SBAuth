@@ -18,8 +18,8 @@
                                     </div>
                                 @endif
 
-                                <div class="d-flex flex-column flex-sm-row align-items-center justify-content-between gap-3">
-                                    <form method="POST" action="{{ route('verification.send') }}" class="mb-0">
+                                <div class="d-flex flex-column flex-sm-row align-items-center justify-content-between">
+                                    <form method="POST" action="{{ route('verification.send') }}" class="mb-0 mr-sm-3 mb-2 mb-sm-0">
                                         @csrf
                                         <button type="submit" class="btn btn-primary btn-user">
                                             {{ __('Resend Verification Email') }}
